@@ -1,0 +1,505 @@
+
+body, html 
+{
+   
+    background-color: #E0D5B8;
+  }
+  .navbar
+  {
+      margin-bottom: 0px;
+      background-color:#670304;
+      border: none;
+      font-weight: 200;
+      font-size: large;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      border-radius: 0%;
+  }
+  .navbar a
+  {
+      color: white;
+      font-weight: bolder;
+      
+  }
+  .navbar-brand
+  {
+    font-weight: 600;
+    font-size: larger;
+    font-family: 'Lobster', cursive;
+  }
+
+/* FOOTER CSS ------------------------- */
+  footer
+{
+    height: auto;
+    background-color: #670304;
+    padding: 30px;
+    color : white;
+    transform: translate(0px,0px);
+    
+}
+.fa {
+padding: 10px;
+font-size: 20px;
+width: 40px;
+text-align: center;
+text-decoration: none;
+margin: 3px;
+border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+background: #3B5998;
+color: white;
+}
+
+.fa-twitter {
+background: #55ACEE;
+color: white;
+}
+
+.fa-google {
+background: #dd4b39;
+color: white;
+}
+
+.fa-linkedin {
+background: #007bb5;
+color: white;
+}
+
+.fa-youtube {
+background: #bb0000;
+color: white;
+}
+
+.fa-instagram {
+background: #125688;
+color: white;
+}
+
+.fa-pinterest {
+background: #cb2027;
+color: white;
+}
+.row
+{
+    float: right;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    width: 60%;
+}
+.col
+{
+    
+    padding: 0px;
+}
+.col-md-6
+{
+    /* // padding-left: 16%; */
+}
+.col input
+{
+    background-color: #670304;
+    border-color: white;
+}
+.col button
+{
+    background-color: #670304;
+    border-color: white;
+    margin-left: 5px;
+}
+#SocialMediaIcons
+{
+    float: left;
+}
+#layer2
+{
+    height: auto;
+    margin-top: 65px;
+    font-size: 18px;
+}
+/* ABOUT PAGE CSS--------------------- */
+#sec2_ab
+{
+    margin-top: 60px;
+
+}
+#pic_right
+{
+    float:left;
+    margin-top: 60px;
+    width: 15%;
+    background-image: url('images/bg3.jpg');
+}
+#pic_right img
+{
+    box-shadow: 5px 5px 5px 5px grey;
+    margin-top: 60px;
+    width: 432px;
+    height: 315px;
+
+}
+#con_left
+{
+    margin-top: 60px;
+    float:left;
+    background-color: #670304;
+    /*margin-left: -200px;*/
+    width:45%;
+    padding: 40px;
+    font-size: 18px;
+    color:beige;
+}
+#sec3_ab
+{
+    margin-bottom: 100px;
+
+}
+#con_right
+{
+    float:right;
+    background-color: #670304;
+    margin-top: 60px;
+    margin-right: 206px;
+    width:45%;
+    padding: 40px;
+    font-size: 18px;
+    color:beige;
+}
+.con
+{
+margin-left: -10px;
+}
+#pic_left
+{
+    float:left;
+    width: 15%;
+    height: 400px;
+    margin-top: -90px;
+    margin-left: 250px;
+    margin-bottom: 150px;
+    background-image: url('images/bg3.jpg');
+    padding: 0px;
+    
+}
+#pic_left img
+{
+    box-shadow: 5px 5px 5px 5px grey;
+    margin-bottom:60px;
+    float:right;
+    width: 432px;
+    height: 315px;
+}
+/* ORGS PAGE CSS-------------------------------- */
+#share_section1
+{
+    height: 200px;
+    background-color: #670304;
+   text-align: center;
+}
+#share_section1 p
+{
+   color: beige;
+    font-size: 45px;
+   margin-top: 100px;
+   font-family: 'Wellfleet';
+}
+#share_images
+{
+   padding: 50px;
+    justify-content: center;
+   padding-left: 100px;
+    position: relative;
+}
+.share_column
+{
+    /*border: solid;*/
+    width: 500px;
+    height: 375px;
+    float: left;
+    display: inline-block;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.share_column img
+{
+   width: 500px;
+   height: 375px;
+}
+.share_inner-img
+{
+   transition: 0.3s;
+}
+.share_inner-img:hover 
+{
+   transform: scale(1.1);
+}
+.share_overlay
+{
+  position: relative;
+  margin-top: -375px;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 15;
+  padding-bottom: 13px;            
+}
+.share_overlay a,.share_overlay a:hover
+{
+   text-decoration: none;
+   cursor: pointer;
+   color: inherit;
+   
+}
+.share_overlay a:hover
+{
+   font-size: 40px;
+}
+#schoolb b, #collegeb b
+{
+    font-family: 'Shippori Mincho', serif;
+    font-size: 40px;
+    color:#894329;
+    text-shadow: 2px 2px #670304;
+}
+.orgcard
+{
+    width: 300px;
+    background-image: url('IMAGES/img28.jpg');
+    background-repeat: no-repeat;
+    height: 340px;
+    border-radius: 40px;
+    padding: 15px;
+    transition: 0.4s;
+    box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+}
+.orgcard:hover 
+{
+    transform: scale(0.9, 0.9);
+    box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
+        -5px -5px 30px 15px rgba(0,0,0,0.22);
+}
+.orgcard-body
+{
+    text-align: center;
+    color:#670304;
+}
+.orgcard-title
+{
+    font-family: 'Jomhuria', cursive;
+    font-size:40px;
+   
+}
+.orgcard-text
+{
+    font-family: 'Cookie', cursive;
+    font-size: 25px;
+}
+.orgcard button
+{
+    background: transparent;
+    border-radius: 10px;
+    border-bottom: solid 2px #670304;
+    font-size: 20px;
+    padding: 1px  5px 1px 5px;
+    font-family: 'Shippori Mincho', serif;
+   
+}
+/* CONTACT PAGE CSS---------------------- */
+/* MAP ------------- */
+.mapouter
+{
+    
+    text-align:right;
+    height:340px;
+    width:100%;
+}
+.gmap_canvas
+ {
+     overflow:hidden;
+     background:none, !important;
+     height:340px;
+     width:100%;
+ }
+ iframe
+ {
+    height:340px;
+    width:100%;
+ }
+ #map
+ {
+     background-color: #894329;
+     width: 100%;
+     height: auto;
+     padding: 30px;
+     justify-content: center;
+     
+ }
+ .conatact_parallax
+ {
+     height: 300px;
+     background-image: url('IMAGES/img2.jpg');
+     /* Create the parallax scrolling effect */
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+#conatact_part1 h1
+{
+  margin-left: 30%;
+  margin-top: 150px;
+  font-family: 'Montserrat', sans-serif;
+  color: beige;
+  font-size: 70px;
+}
+.conatact_parallax2
+{
+ height: 300px;
+ background-image: url('IMAGES/img18.jpg');
+ /* Create the parallax scrolling effect */
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ filter: blur(1px);
+         -webkit-filter: blur(1px);
+}
+.conatact_parallax3
+{
+ height: 300px;
+ background-image: url('IMAGES/img17.jpg');
+ /* Create the parallax scrolling effect */
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ }
+  /* CONTACT SECTION ------------ */
+  #conatact_form_add
+ {
+     height: auto;
+     color:  #894329;
+     font-family: 'Times New Roman', Times, serif;
+     background: transparent;
+     font-size: large;
+     padding: 5%;
+ }
+ #conatact_heading
+ {
+   font-size: larger;
+ }
+ ::placeholder
+ {
+    color: #894329;
+    opacity: 1;
+    font-size: large;
+ }
+ .conatact_input
+ {
+     border: none;
+     border-bottom: solid #670304;
+     margin: 10px;
+     width: 80%;
+     height: 4%;
+     border-radius: 4px;
+     box-shadow: 10px;
+     float: left;
+     background: transparent;
+ }
+ #conatact_form
+ {
+     width: 50%;
+     float: left;
+ }
+ #conatact_sendbtn
+ {
+     background:transparent;
+     margin: 10px;
+     width: 80%;
+     height: 4%;
+     font-weight: 500;
+     font-size: larger;
+     border: solid #670304;
+     color: #894329;
+     font-weight: 400;
+ }
+ #conatact_icons
+ {
+     float: left;
+ }
+ .conatact_material-icons
+ {
+     margin: 10px;
+ }
+ .conatact_h3-responsive
+ {
+     color:#670304;
+     font-weight: 600;
+ }
+ #conatact_form_add
+ {
+     margin-top: 5%;
+     margin-bottom: 5%;
+    
+ }
+ .conatact_material-icons
+ {
+   font-size: 40px;
+   float: left;
+   color: #670304;
+ }
+ /* DONATION FORM PAGE-------------- */
+ .donation_btn
+ {
+   padding: 5px 10px 5px 10px;
+   background: transparent;
+   color: #f1f1f1;
+   font-size: 16px;
+   border: 3px solid #f1f1f1;
+   margin-top: 20px;
+   width:80%;
+   transition: 0.4s;
+ }
+ .donation_btn:hover
+ {
+     background: #f1f1f1;
+     color:#670304;
+ }
+ #donation_back
+ {
+     height: 100%;
+     width: 100%;
+     background-image: url("IMAGES/img5.jpg");
+     filter: blur(3px);
+      -webkit-filter: blur(3px);
+  /* Center and scale the image nicely */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: fixed;
+     
+ }
+ .donation_bg-text
+  {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+  }
